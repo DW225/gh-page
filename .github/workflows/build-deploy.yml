@@ -23,7 +23,7 @@ jobs:
         node-version: '14'
     
     - name: Install NPM packages
-      run: npm intsall
+      run: npm install
     
     - name: Build project
       run: npm run build
